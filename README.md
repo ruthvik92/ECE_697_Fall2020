@@ -8,7 +8,7 @@
  * **MNIST** can be found [at](http://deeplearning.net/tutorial/gettingstarted.html)
  
 # Known issues with windows
-* All the codes were tested with `tensorflow 1.15` and `Keras 2.2.4` in `Python 2.7` and `Python 3.7.5` however when you try to run on windows you might encounter issues like below:
+* All the codes were tested with `tensorflow 1.15` and `Keras 2.2.4` in `Python 2.7` and `Python 3.7.5` on **Linux** however when you try to run on windows you might encounter issues like below:
 
 ## NBEXTENSION ISSUE:
 * If you don't have `nbextension` tab visible in your notebook then open anaconda prompt and run the following
