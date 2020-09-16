@@ -1,0 +1,8 @@
+classifierclass_usage.ipynb is a jupyter-notebook, it has tensorboard visualization and some links for other sources. Use this for personal use.
+
+classifierclass_usage_keras_main_script.py and classifierclass_usage_numpy_main_script.py are script files to be used when running on a cluster.
+
+data folder contains data for EMNIST and MNIST, if you don't find data in data folder then download it from internet and place it in the data folder, if the folder doesn't exist create one.
+
+EMNSIT can be found at: http://greg-cohen.com/datasets/emnist/
+MNIST can be found at: http://deeplearning.net/tutorial/gettingstarted.html
