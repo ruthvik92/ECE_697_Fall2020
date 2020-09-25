@@ -7,6 +7,12 @@
  * **EMNSIT** can be found [at](http://greg-cohen.com/datasets/emnist/)
  * **MNIST** can be found [at](http://deeplearning.net/tutorial/gettingstarted.html)
  
+# Suggested Exercises
+
+## Exercise 1
+
+* Try to run the notebooks `classifierclass_usage.ipynb`, `train_using_numpy_arrays.ipynb' and complete the exrercises given within.
+
 # Known issues with windows
 * All the codes were tested with `tensorflow 1.15` and `Keras 2.2.4` in `Python 2.7` and `Python 3.7.5` on **Linux** however when you try to run on windows you might encounter issues like below:
 
