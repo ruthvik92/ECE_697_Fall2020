@@ -4,7 +4,7 @@
 * `classifierclass_usage_keras_main_script.py` and `classifierclass_usage_numpy_main_script.py` are script files to be used when running on a cluster.
 
 * **data/** folder contains data for `EMNIST` and `MNIST`, if you don't find data in data folder then download it from internet and place it in the data folder, if the folder doesn't exist create one.
- * **EMNSIT** can be found [at](http://greg-cohen.com/datasets/emnist/)
+ * **EMNSIT** can be found [at](http://greg-cohen.com/datasets/emnist/), use this [link](https://drive.google.com/file/d/15ool5YI5D3m_BMBNupZXbXVTWJ9RoNEm/view?usp=sharing) for `.pkl.gz` format.
  * **MNIST** can be found [at](http://deeplearning.net/tutorial/gettingstarted.html)
  
 # Suggested Exercises
