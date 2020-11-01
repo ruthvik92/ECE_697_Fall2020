@@ -70,7 +70,7 @@ def feature_visualization(features, plotx=8,ploty=8,layer_num=[2,3,4],filter_siz
 	#fig.subplots_adjust(left=0.03, bottom=0.0, right=0.99, top=0.9, wspace=0.27, hspace=0.21)      
 	axes = axes.flat
 	for i in range(len(axes)):
-	    axes[i].imshow(final_features[:,:,:,i],interpolation='none')
+	    axes[i].imshow(final_features[:,:,1,i],interpolation='none', cmap='gray')
 	    axes[i].set_title('Map'+str(i+1),fontsize=font1)
 	#plt.show()
     
