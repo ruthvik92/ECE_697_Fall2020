@@ -1,6 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+def DoG(window_size, sigma1, sigma2):
+    x=np.arange(1,int(window_size)+1,dtype=np.float64)
+    x=np.tile(x,(int(window_size),1))
+    y=np.transpose(x)
+    d2 = ((x-(window_size/2))-.5)**2 + ((y-(window_size/2))-.5)**2
+    gfilter = 1/np.sqrt(2*np.pi) * ( 1/sigma1 * np.exp(-d2/2/(sigma1**2)) - 1/sigma2 * np.exp(-d2/2/(sigma2**2)))
+    gfilter = gfilter - np.mean(gfilter)
+    gfilter = gfilter / np.max(gfilter)
+    return gfilter
+
 def feature_visualization(features, plotx=8,ploty=8,layer_num=[2,3,4],filter_sizes=[5,2,3],\
                              filter_strides=[1,2,1],nof_filters=[32,32,64],types=['conv','pool','conv'],currLayer=4,\
                              show=True, figsize=(10,10), font1=12, font2=18):
